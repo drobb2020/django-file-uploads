@@ -16,6 +16,7 @@
     <div class="mb-8">
         {{ form.image|add_label_class:"block mb-2 text-sm font-medium text-gray-900 dark:text-slate" }}
         {% render_field form.image class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-100 dark:border-gray-600 dark:placeholder-gray-700 dark:text-slate dark:focus:ring-blue-500 dark:focus:border-blue-500"%}
+        <div class="text-red-500">{{ form.image.errors }}</div>
     </div>
       <input
         type="submit"
