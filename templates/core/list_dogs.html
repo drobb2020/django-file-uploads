@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+<div class="p-8 flex flex-col items-center">
+  <a href="{% url 'index' %}" class="text-blue-600 tracking-normal mb-4"
+    >Add a Dog!</a
+  >
+  {% for dog in dogs %}
+  <div class="max-w-sm rounded overflow-hidden shadow-xl mb-8">
+    <img class="w-full" src="{{ dog.image.url }}" alt="{{ dog.name }}" />
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">{{ dog.name }}</div>
+      <p class="text-gray-700 text-base mb-3">
+        Dogs are cool, and a perfect companion!
+      </p>
+      <!-- <div class="grid grid-cols-1 gap-1 place-items-center">
+        <div class="font-bold text-xl my-2">Image Details</div>
+          <p>Size (bytes): </p>
+          <p>Width: </p>
+          <p>Height: </p>
+      </div> -->
+    </div>
+    <div class="mx-auto my-4">
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+        <a href="{% url 'delete-image' dog.pk %}">Delete Image</a>
+      </button>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock content %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load widget_tweaks %}
+
+{% block content %}
+<div class="p-8 flex flex-col items-center">
+  <h1 class="font-medium leading-tight text-4xl mt-0 mb-4 text-blue-600">
+    Welcome!
+  </h1>
+  <a href="{% url 'list-dogs' %}" class="text-blue-600 tracking-normal mb-4">View All Dogs</a>
+  <form action="" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="mb-4">
+        {{ form.name|add_label_class:"block mb-2 text-sm font-medium text-gray-900 dark:text-slate" }}
+        {% render_field form.name class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-100 dark:border-gray-600 dark:placeholder-gray-700 dark:text-slate dark:focus:ring-blue-500 dark:focus:border-blue-500" %}
+    </div>
+    <div class="mb-8">
+        {{ form.image|add_label_class:"block mb-2 text-sm font-medium text-gray-900 dark:text-slate" }}
+        {% render_field form.image class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-100 dark:border-gray-600 dark:placeholder-gray-700 dark:text-slate dark:focus:ring-blue-500 dark:focus:border-blue-500"%}
+    </div>
+      <input
+        type="submit"
+        value="Submit"
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none"
+        />
+  </form>
+</div>
+{% endblock content %}
