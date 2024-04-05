@@ -25,23 +25,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/drobb2020/django-twitter-clone">
-    <img src="./musker/social_media/static/assets/logo.png" alt="Logo" height="100">
+  <a href="https://github.com/drobb2020/django-file-uploads">
+    <img src="./static/assets/logo.png" alt="Logo" height="100">
   </a>
 
-<h3 align="center">Django Twitter Clone Project</h3>
+<h3 align="center">Django File Uploads to Amazon S3 Bucket Project</h3>
 
   <p align="center">
-    A Django project from Codemy.com on Django Wednesdays. This is meant as a clone of twitter and pokes a bit of fun at Elon Musk at the same time. Project was created before he changed the name to X.
+    A Django project from BugBytes. This is a demonstration of how to upload images and files to an S3 bucket on Amazon.
     <br />
-    <a href="https://github.com/drobb2020/django-twitter-clone"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/drobb2020/django-file-uploads"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/drobb2020/django-twitter-clone">View Demo</a>
+    <a href="https://github.com/drobb2020/django-file-uploads">View Demo</a>
     ·
-    <a href="https://github.com/drobb2020/django-twitter-clone/issues">Report Bug</a>
+    <a href="https://github.com/drobb2020/django-file-uploads/issues">Report Bug</a>
     ·
-    <a href="https://github.com/drobb2020/ddjango-twitter-clone/issues">Request Feature</a>
+    <a href="https://github.com/drobb2020/django-file-uploads/issues">Request Feature</a>
   </p>
 </div>
 
@@ -81,9 +81,8 @@
 ### Built With
 
 * [Django](https://www.djangoproject.com/)
-* [Bootstrap](https://getbootstrap.com/)
-* [Font Awesome](https://fontawesome.com/)
-* [JQuery](https://jquery.com/)
+* [TailwindCSS](https://tailwindcss.com//)
+* [AWS S3 Bucket](https://us-east-1.console.aws.amazon.com/s3/get-started?region=us-east-1)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -143,29 +142,29 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 drobb2011@gmail.com
 
-Project Link: [https://github.com/drobb2020/django-ecommerce](https://github.com/drobb2020/django-ecommerce)
+Project Link: [https://github.com/drobb2020/django-file-uploads](https://github.com/drobb2020/django-file-uploads)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [John Elder from Codemy.com](https://codemy.com/)
+* [BugBytes](https://www.bugbytes.io/posts/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/drobb2020/django-twitter-clone.svg?style=for-the-badge
-[contributors-url]: https://github.com/drobb2020/ddjango-twitter-clone/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/drobb2020/django-twitter-clone.svg?style=for-the-badge
-[forks-url]: https://github.com/drobb2020/django-twitter-clone/network/members
-[stars-shield]: https://img.shields.io/github/stars/drobb2020/django-twitter-clone.svg?style=for-the-badge
-[stars-url]: https://github.com/drobb2020/django-twitter-clone/stargazers
-[issues-shield]: https://img.shields.io/github/issues/drobb2020/django-twitter-clone.svg?style=for-the-badge
-[issues-url]: https://github.com/drobb2020/django-twitter-clone/issues
-[license-shield]: https://img.shields.io/github/license/drobb2020/django-twitter-clone.svg?style=for-the-badge
-[license-url]: https://github.com/drobb2020/django-twitter-clone/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/drobb2020/django-file-uploads.svg?style=for-the-badge
+[contributors-url]: https://github.com/drobb2020/django-file-uploads/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/drobb2020/django-file-uploads.svg?style=for-the-badge
+[forks-url]: https://github.com/drobb2020/django-file-uploads/network/members
+[stars-shield]: https://img.shields.io/github/stars/drobb2020/django-file-uploads.svg?style=for-the-badge
+[stars-url]: https://github.com/drobb2020/django-file-uploads/stargazers
+[issues-shield]: https://img.shields.io/github/issues/drobb2020/django-file-uploads.svg?style=for-the-badge
+[issues-url]: https://github.com/drobb2020/django-file-uploads/issues
+[license-shield]: https://img.shields.io/github/license/drobb2020/django-file-uploads.svg?style=for-the-badge
+[license-url]: https://github.com/drobb2020/django-file-uploads/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/david-robb-42436a20/
-[product-screenshot]: ./musker/social_media/static/assets/screenshot.png
+[product-screenshot]: ./static/assets/screenshot.png
